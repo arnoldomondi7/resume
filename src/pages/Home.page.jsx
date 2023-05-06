@@ -1,8 +1,5 @@
 import React from "react"
-import LinkedInIcon from "@mui/icons-material/LinkedIn"
-import EmailIcon from "@mui/icons-material/Email"
-import GitHubIcon from "@mui/icons-material/GitHub"
-import WhatsAppIcon from "@mui/icons-material/WhatsApp"
+import Ano from "../assets/ano.jpg"
 import "../styles/Home.css"
 
 function HomePage() {
@@ -15,10 +12,21 @@ function HomePage() {
             A self-taught web developer with a passion for learning and
             creating.
           </p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
-          <WhatsAppIcon />
+        </div>
+        <div>
+          <img
+            src={Ano}
+            alt='ano'
+            width='250px'
+            height='250px'
+            style={{
+              objectFit: "cover",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              borderRadius: "50%",
+            }}
+          />
         </div>
       </div>
       <div className='skills'>

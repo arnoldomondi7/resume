@@ -1,8 +1,8 @@
 import React from "react"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { ProjectList } from "../helpers/ProjectList"
-import GitHubIcon from "@mui/icons-material/GitHub"
 import "../styles/ProjectDisplay.css"
+import { GitHub } from "@mui/icons-material"
 
 function ProjectDisplay() {
   const { id } = useParams()
@@ -13,12 +13,15 @@ function ProjectDisplay() {
       <img
         src={project.image}
         alt='project-name'
-        style={{ objectFit: "contain" }}
+        style={{ objectFit: "contain", width: "40em", height: "40em" }}
       />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+
+      <Link to='https://github.com/arnoldomondi7' target='_blank'>
+        <GitHub style={{ fontSize: "2em", marginBottom: "15px" }} />
+      </Link>
     </div>
   )
 }

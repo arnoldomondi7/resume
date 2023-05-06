@@ -8,10 +8,12 @@ const Projects = () => {
     <div className='projects'>
       <h1> My Personal Projects</h1>
       <div className='projectList'>
-        {ProjectList.map((project, idx) => {
+        {ProjectList.map((project, index) => {
           return (
             <ProjectItemComp
-              id={idx}
+              key={index}
+              id={index}
+              subject={project.subject}
               name={project.name}
               image={project.image}
             />

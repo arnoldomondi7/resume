@@ -1,39 +1,45 @@
 import Proj1 from "../assets/proj1.jpg"
 import Proj2 from "../assets/proj2.jpg"
-import Proj3 from "../assets/proj3.webp"
-import Proj4 from "../assets/proj4.webp"
+import Proj3 from "../assets/proj3.jpg"
+import Proj4 from "../assets/proj4.jpg"
 import Proj5 from "../assets/proj5.jpg"
-import Proj6 from "../assets/proj6.png"
+import Proj6 from "../assets/proj6.jpg"
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "coders connect",
+    subject: "basic social network application",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "HTML,CSS,React, Node, Express, MongoDB",
   },
   {
-    name: "Ecommerce Website",
+    name: "Arnold Store B2C",
+    subject: "Basic Online marketplace.",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "React,HTML,Tailwind, Node, Express, MongoDB",
   },
   {
-    name: "Spotify Clone",
+    name: "Multi-Vendor Store C2C",
+    subject: "Basic Multi-Vendor Web Application ",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React,HTML,Bootstrap, react-icons, Node, Express, MongoDB",
   },
   {
-    name: "Social Media Website",
+    name: "Fiverr Clone",
+    subject: "basic clone of Fiverr",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "React,HTML,CSS,tailwind, Node, Express, MongoDB",
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Understanding Redux",
+    subject: "Smart Library For state Management",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React, Redux, react-redux, @reactjs/toolkit",
   },
   {
-    name: "Mobile Game",
+    name: "Simple Authentication System",
+    subject: "simple authentication system written in MERN",
     image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "React, Node, Express, material-ui MongoDB",
   },
 ]
