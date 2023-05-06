@@ -25,7 +25,7 @@
 
 .about .prompt {
   width: 40%;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .skills {
@@ -38,7 +38,7 @@
 }
 
 .skills h1 {
-  color: #333;
+  color: #222;
 }
 
 .skills .list {
